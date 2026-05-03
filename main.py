@@ -22,3 +22,10 @@ get_adjectival_equivalent(grade):
         return "FAILED ON CONDITION"
     else:
         return "FAILED"
+
+print("\n--- RESULTS ---")
+print(f"Q1 Grade: {Q1:.2f}")
+print(f"Q2 Grade: {Q2:.2f}")
+print(f"Q3 Grade: {Q3:.2f}")
+print(f"Final Grade (Q4): {Q4:.2f}")
+print(f"Adjectival Equivalent: {get_adjectival_equivalent(Q4)}")
